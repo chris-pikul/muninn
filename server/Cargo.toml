@@ -1,0 +1,15 @@
+[package]
+name = "muninn-server"
+version = "0.1.0"
+authors = ["Chris Pikul <ChrisPikul510@gmail.com>"]
+edition = "2018"
+description = "Muninn Secure Communication Server"
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/chris-pikul/muninn"
+license = "MIT"
+keywords = ["protocol", "server", "secure", "communication", "messaging"]
+publish = false
+
+[dependencies]
+muninn = { path="../lib" }

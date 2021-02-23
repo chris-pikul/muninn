@@ -1,15 +1,5 @@
-[package]
-name = "muninn"
-version = "0.1.0"
-authors = ["Chris Pikul <ChrisPikul510@gmail.com>"]
-edition = "2018"
-description = "Secure messaging protocol for reliable communication transmission"
-readme = "README.md"
-homepage = ""
-repository = "https://github.com/chris-pikul/muninn"
-license = "MIT"
-keywords = ["network", "protocol", "communication", "secure", "messaging"]
-categories = []
-publish = false
-
-[dependencies]
+[workspace]
+members = [
+    "lib",
+    "server",
+]

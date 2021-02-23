@@ -1,0 +1,16 @@
+[package]
+name = "muninn"
+version = "0.1.0"
+authors = ["Chris Pikul <ChrisPikul510@gmail.com>"]
+edition = "2018"
+description = "Secure Communication Transfer Protocol"
+readme = "README.md"
+homepage = ""
+repository = "https://github.com/chris-pikul/muninn"
+license = "MIT"
+keywords = ["protocol", "library", "secure", "communication", "messaging"]
+publish = false
+
+# See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
+
+[dependencies]
