@@ -1,5 +1,5 @@
 [package]
-name = "client"
+name = "muninn-client"
 version = "0.1.0"
 authors = ["Chris Pikul <ChrisPikul510@gmail.com>"]
 edition = "2018"

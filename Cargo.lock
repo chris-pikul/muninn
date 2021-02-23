@@ -5,6 +5,13 @@ name = "muninn"
 version = "0.1.0"
 
 [[package]]
+name = "muninn-client"
+version = "0.1.0"
+dependencies = [
+ "muninn",
+]
+
+[[package]]
 name = "muninn-server"
 version = "0.1.0"
 dependencies = [
